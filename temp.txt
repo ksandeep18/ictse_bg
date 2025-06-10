@@ -1,0 +1,149 @@
+        // keynotes speakers
+                  <div class="slider-wrapper overflow-hidden">
+                    <div class="slider-track d-flex">
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor1.png" alt="speaker 1" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="" alt="speaker 2" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <!-- Duplicate for seamless loop (JS will also handle this) -->
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor1.png" alt="speaker 3" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="" alt="speaker 4" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+        // Sponsors
+        
+                <!-- Platinum Sponsors -->
+                <div class="row mb-3">
+                  <div class="col-lg-12 text-center mb-3">
+                    <h3 class="text-primary">Platinum Sponsors</h3>
+                  </div>
+                  <div class="slider-wrapper overflow-hidden">
+                    <div class="slider-track d-flex">
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor1.png" alt="Platinum Sponsor 1" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="" alt="Platinum Sponsor 2" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <!-- Duplicate for seamless loop (JS will also handle this) -->
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor1.png" alt="Platinum Sponsor 1" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="" alt="Platinum Sponsor 2" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Golden Sponsors -->
+                <div class="row mb-4">
+                  <div class="col-lg-12 text-center mb-3">
+                    <h3 class="text-primary">Golden Sponsors</h3>
+                  </div>
+                  <div class="slider-wrapper overflow-hidden">
+                    <div class="slider-track d-flex">
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor1.png" alt="Golden Sponsor 1" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="" alt="Golden Sponsor 2" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor3.png" alt="Golden Sponsor 3" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <!-- Duplicate for seamless loop (JS will also handle this) -->
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor1.png" alt="Golden Sponsor 1" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="" alt="Golden Sponsor 2" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor3.png" alt="Golden Sponsor 3" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Silver Sponsors -->
+                <div class="row mb-4 g-4">
+                  <div class="col-lg-12 text-center mb-3">
+                    <h3 class="text-primary">Sliver Sponsors</h3>
+                  </div>
+                  <div class="slider-wrapper overflow-hidden">
+                    <div class="slider-track d-flex">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor1.png" alt="Sliver Sponsor 1" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="" alt="Sliver Sponsor 2" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor3.png" alt="Sliver Sponsor 3" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <!-- Duplicate for seamless loop (JS will also handle this) -->
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor1.png" alt="Sliver Sponsor 1" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="" alt="Sliver Sponsor 2" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="sponsor-logo p-4 bg-light rounded shadow-sm text-center">
+                          <img src="sponsor3.png" alt="Sliver Sponsor 3" class="img-fluid mb-2 w-100">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<<<<<<< HEAD
+
+Home page color:
+linear-gradient(135deg, #80000099 0%, #a0000099 100%),
+=======
+>>>>>>> ddc7e38ed56a53e3bf0bbb56667b781da34dc9c5
