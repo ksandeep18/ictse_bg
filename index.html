@@ -66,6 +66,29 @@
     </div>
 </nav>
 
+<!-- Scrolling Announcement -->
+<div class="announcement-bar bg-info text-dark fw-bold text-center py-2" 
+     style="position:sticky; top:90px; z-index:1030; overflow:hidden; white-space:nowrap;">
+  <div class="scrolling-text d-inline-block">
+    📢 Final Paper Submission Deadline has been extended to 
+    <span class="text-warning">October 15, 2025</span>. 
+  </div>
+</div>
+
+<style>
+/* Smooth ticker animation */
+.scrolling-text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 20s linear infinite;
+}
+@keyframes scroll-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+</style>
+
+
     <!-- Home Section with Carousel -->
     <section id="home" class="hero-section">
         <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
@@ -363,141 +386,203 @@ presented in person. An option for online presentation is available only for for
     </div>
     </section>
 
-    <!-- keyNote speaker -->
-    <section id="keynote-speakers" class="py-5 lead">
-            <div class="container">
+<!-- keyNote speaker -->
+<section id="keynote-speakers" class="py-5 lead">
+    <div class="container">
 
-                <!-- Section Title -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-header text-center mb-5">
-                            <h2 class="section-title">Keynote Speakers</h2>
-                            <div class="title-underline"></div>
-                        </div>
-                    </div>
+        <!-- Section Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-header text-center mb-5">
+                    <h2 class="section-title">Keynote Speakers</h2>
+                    <div class="title-underline"></div>
                 </div>
-<div class="mt-4 mb-2 fs-4 text-center lead ">
-    <p>We are honoured to have the following eminent personalities and many more as keynote speakers</p>  
-</div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card h-100 border-0 shadow-sm text-center">
-                            <div class="card-body p-4">
-                                <img src="assets\images\prof Lee NUSP.jpg" alt="Speaker 1" class="img-fluid mx-auto mb-3" style="object-fit: cover; width: 100%; height: 400px;">
-                                <h5 class="text-primary">Prof. Poh Seng Lee</h5>
-                                <p class="text-muted    ">Mechanical Engineering, College of Design and Engineering, National University of Singapore</p>
-                            </div> 
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card h-100 border-0 shadow-sm text-center">
-                            <div class="card-body p-4">
-                                <img src="assets\images\prof sarit kumar IITM.png" alt="Speaker 2" class="img-fluid mx-auto mb-3" style="object-fit: cover; width: 100%; height: 400px;">
-                                <h5 class="text-primary">Prof. Sarit Kumar Das</h5>
-                                <p class="text-muted">Department of Mechanical Engineering, Indian Institute of Technology Madras</p>       
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </div>
 
+        <div class="mt-4 mb-2 fs-4 text-center lead">
+            <p>We are honoured to have the following eminent personalities and many more as keynote speakers</p>  
+        </div>
 
-    </section>
+        <div class="row g-4">
+            <!-- Speaker 1 -->
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-3">
+                        <img src="assets\images\prof Lee NUSP.jpg" alt="Speaker 1" class="img-fluid mx-auto mb-3" style="object-fit: cover; width: 100%; height: 250px;">
+                        <h6 class="text-primary">Prof. Poh Seng Lee</h6>
+                        <p class="text-muted small">Mechanical Engineering, College of Design and Engineering, National University of Singapore</p>
+                    </div> 
+                </div>
+            </div>
 
-    <!-- Important Dates Section -->
-    <section id="important-dates" class="py-5 bg-light text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-header text-center mb-5">
-                        <h2 class="section-title">Important Dates</h2>
-                        <div class="title-underline"></div>
-                        <!-- Countdown Timer -->
-                        <div class="countdown-timer mt-4">
-                            <h4 class="text-white mb-3 lead fs-2">ICTSE Conference In</h4>
-                            <div class="countdown-display d-flex justify-content-center gap-4 flex-wrap">
-                                <div class="countdown-unit">
-                                    <div class="countdown-number" id="days">00</div>
-                                    <div class="countdown-label">Days</div>
-                                </div>
-                                <div class="countdown-unit">
-                                    <div class="countdown-number" id="hours">00</div>
-                                    <div class="countdown-label">Hours</div>
-                                </div>
-                                <div class="countdown-unit">
-                                    <div class="countdown-number" id="minutes">00</div>
-                                    <div class="countdown-label">Minutes</div>
-                                </div>
-                                <div class="countdown-unit">
-                                    <div class="countdown-number" id="seconds">00</div>
-                                    <div class="countdown-label">Seconds</div>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Speaker 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-3">
+                        <img src="assets\images\prof sarit kumar IITM.png" alt="Speaker 2" class="img-fluid mx-auto mb-3" style="object-fit: cover; width: 100%; height: 250px;">
+                        <h6 class="text-primary">Prof. Sarit Kumar Das</h6>
+                        <p class="text-muted small">Department of Mechanical Engineering, Indian Institute of Technology Madras</p>       
                     </div>
                 </div>
             </div>
-            
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-marker"></div>
-                            <div class="timeline-content">
-                                <h5 class="text-primary">Abstract Submission Deadline</h5>
-<p class="text-muted mb-1">
-  <strong><s>August 1, 2025</s> → August 15, 2025</strong>
-</p>
-                                <p class="text-muted">All abstracts must be submitted through the official online portal.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-marker"></div>
-                            <div class="timeline-content">
-                                <h5 class="text-primary">Notification of abstract acceptance</h5>
-                                <p class=" text-muted mb-1"><strong>15/08/2025</strong></p>
-    <p class="text-muted">Authors will be notified about abstract acceptance
 
-</p>
-                            </div>
-                        </div>
+            <!-- Speaker 3 -->
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-3">
+                        <img src="assets\images\new\speaker3.jpg" alt="Speaker 3" class="img-fluid mx-auto mb-3" style="object-fit: cover; width: 100%; height: 250px;">
+                        <h6 class="text-primary">Prof. Prakash Chandra Ghosh</h6>
+                        <p class="text-muted small">Department of Energy Science and Engineering, IIT Bombay</p>       
+                    </div>
+                </div>
+            </div>
 
-                        <div class="timeline-item">
-                            <div class="timeline-marker"></div>
-                            <div class="timeline-content">
-                                <h5 class="text-primary">Full length paper submission deadline</h5>
-                                <p class=" text-muted mb-1"><strong>30/09/2025</strong></p>
-                                <p class="text-muted">All papers must be submitted through the official online portal</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-marker"></div>
-                            <div class="timeline-content">
-                                <h5 class="text-primary">Notification of final acceptance</h5>
-                                <p class="text-muted mb-1"><strong>15/11/2025</strong></p>
-                                <p class="text-muted">Authors will be notified about final paper acceptance</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-marker"></div>
-                            <div class="timeline-content">
-                                <h5 class="text-primary">Registration (Early bird) deadline</h5>
-                                <p class="text-muted mb-1"><strong>30/11/2025</strong></p>
-                                <p class="text-muted">Register before this date for discounted rates</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-marker"></div>
-                            <div class="timeline-content">
-                                <h5 class="text-primary">Registration (Regular) deadline</h5>
-                                <p class="text-muted mb-1"><strong>31/12/2025</strong></p>
-                                <p class="text-muted">Register before this date for regular rates</p>
-                            </div>
-                        </div>
-                       
+            <!-- Speaker 4 -->
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-3">
+                        <img src="assets\images\new\speaker4.jpg" alt="Speaker 4" class="img-fluid mx-auto mb-3" style="object-fit: cover; width: 100%; height: 250px;">
+                        <h6 class="text-primary">Prof. Arun Kumar</h6>
+                        <p class="text-muted small">Department of Hydro and Renewable Energy, IIT Roorkee</p>       
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker 5 -->
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-3">
+                        <img src="assets\images\new\speaker5.jpg" alt="Speaker 5" class="img-fluid mx-auto mb-3" style="object-fit: cover; width: 100%; height: 250px;">
+                        <h6 class="text-primary">Prof. P. Sankar Ganesh</h6>
+                        <p class="text-muted small">BITS Pilani, Hyderabad Campus</p>       
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker 6 -->
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-3">
+                        <img src="assets\images\new\speaker6.jpg" alt="Speaker 6" class="img-fluid mx-auto mb-3" style="object-fit: cover; width: 100%; height: 250px;">
+                        <h6 class="text-primary">Dr. S.V. Ramana Murty</h6>
+                        <p class="text-muted small">Director, Gas Turbine Research Establishment (GTRE)</p>       
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
+
+ <!-- Important Dates Section -->
+<section id="important-dates" class="py-5 bg-light text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-header text-center mb-5">
+                    <h2 class="section-title">Important Dates</h2>
+                    <div class="title-underline"></div>
+                    <!-- Countdown Timer -->
+                    <div class="countdown-timer mt-4">
+                        <h4 class="text-white mb-3 lead fs-2">ICTSE Conference In</h4>
+                        <div class="countdown-display d-flex justify-content-center gap-4 flex-wrap">
+                            <div class="countdown-unit">
+                                <div class="countdown-number" id="days">00</div>
+                                <div class="countdown-label">Days</div>
+                            </div>
+                            <div class="countdown-unit">
+                                <div class="countdown-number" id="hours">00</div>
+                                <div class="countdown-label">Hours</div>
+                            </div>
+                            <div class="countdown-unit">
+                                <div class="countdown-number" id="minutes">00</div>
+                                <div class="countdown-label">Minutes</div>
+                            </div>
+                            <div class="countdown-unit">
+                                <div class="countdown-number" id="seconds">00</div>
+                                <div class="countdown-label">Seconds</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="timeline">
+                    <!-- Abstract Deadline -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="text-primary">Abstract Submission Deadline</h5>
+                            <p class="text-muted mb-1">
+                                <strong><s style="color:red;">August 1, 2025</s> → August 15, 2025</strong>
+                            </p>
+                            <p class="text-muted">All abstracts must be submitted through the official online portal.</p>
+                        </div>
+                    </div>
+
+                    <!-- Abstract Acceptance -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="text-primary">Notification of abstract acceptance</h5>
+                            <p class="text-muted mb-1"><strong>15/08/2025</strong></p>
+                            <p class="text-muted">Authors will be notified about abstract acceptance</p>
+                        </div>
+                    </div>
+
+                    <!-- Full Paper Deadline -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="text-primary">Full length paper submission deadline</h5>
+                            <p class="text-muted mb-1">
+                                <strong><s style="color:red;">30/09/2025</s> → 15/10/2025</strong>
+                            </p>
+                            <p class="text-muted">All papers must be submitted through the official online portal</p>
+                        </div>
+                    </div>
+
+                    <!-- Final Acceptance -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="text-primary">Notification of final acceptance</h5>
+                            <p class="text-muted mb-1"><strong>15/11/2025</strong></p>
+                            <p class="text-muted">Authors will be notified about final paper acceptance</p>
+                        </div>
+                    </div>
+
+                    <!-- Registration Early -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="text-primary">Registration (Early bird) deadline</h5>
+                            <p class="text-muted mb-1"><strong>30/11/2025</strong></p>
+                            <p class="text-muted">Register before this date for discounted rates</p>
+                        </div>
+                    </div>
+
+                    <!-- Registration Regular -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h5 class="text-primary">Registration (Regular) deadline</h5>
+                            <p class="text-muted mb-1"><strong>31/12/2025</strong></p>
+                            <p class="text-muted">Register before this date for regular rates</p>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <!-- Publications Section -->
     <section id="publications" class="py-5">
