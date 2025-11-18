@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set carousel interval to 10 seconds (10000 ms)
     const heroCarousel = document.getElementById('heroCarousel');
     if (heroCarousel) {
-        bootstrap.Carousel.getOrCreateInstance(heroCarousel, { interval: 10000 });
+        bootstrap.Carousel.getOrCreateInstance(heroCarousel, { interval: 5000 });
     }
     
     // Initialize tooltips and popovers if needed
