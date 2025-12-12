@@ -21,7 +21,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Navigation -->
+
+<!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm lead">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#home">
@@ -48,6 +49,19 @@
                     <li class="nav-item"><a class="nav-link" href="#important-dates">Important Dates</a></li>
                     <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
                     <li class="nav-item"><a class="nav-link" href="#registration">Registration</a></li>
+                    <li class="nav-item">
+  <a class="nav-link d-flex align-items-center gap-2 bg-light rounded-pill px-3 py-1 border border-primary"
+     href="#accommodation" title="New: Accommodation details">
+     
+    <span class="badge bg-primary rounded-circle p-2"></span>
+
+    <span class="fw-semibold text-primary">Accommodation</span>
+
+    <span class="badge bg-danger">NEW</span>
+
+  </a>
+</li>
+
 
                 </ul>
                 <!-- Second row of navigation -->
@@ -64,222 +78,231 @@
             </div>
         </div>
     </div>
-</nav>
+    </nav>
 
 <!-- Scrolling Announcement -->
-<div class="announcement-bar bg-info text-dark fw-bold text-center py-2" 
+<div class="announcement-bar bg-info text-dark fw-bold text-center py-2 lead" 
      style="position:sticky; top:90px; z-index:1030; overflow:hidden; white-space:nowrap;">
   <div class="scrolling-text d-inline-block">
-   
+
+
+    <!-- &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp; -->
+
+    <!-- NEW ACCOMMODATION ANNOUNCEMENT -->
+    <span class="text-success">🏨 Accommodation Update:</span>
+    Limited accommodations (nearly 100) are available on a first-come first-served basis. 
+    Please check the Accommodation section and register early.
+    <!-- ORIGINAL CONTENT () -->
     <span class="text-warning">📢 Registration for ICTSE-2026</span>
-     is now open! At least one author must register per accepted paper. Early-bird deadline: 30 November 2025
+    is now open! At least one author must register per accepted paper. Early-bird deadline: 30 November 2025
+
   </div>
 </div>
 
-<style>
-/* Smooth ticker animation */
-.scrolling-text {
-  display: inline-block;
-  padding-left: 100%;
-  animation: scroll-left 20s linear infinite;
-}
-@keyframes scroll-left {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
-}
-</style>
+  <style>
+  /* Smooth ticker animation */
+  .scrolling-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-left 40s linear infinite;
+  }
+  @keyframes scroll-left {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  </style>
 
 
 <!-- Home Section with Carousel -->
-<section id="home" class="hero-section">
-    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+  <section id="home" class="hero-section">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
-        <!-- Indicators -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4"></button>
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="5"></button>
-        </div>
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4"></button>
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="5"></button>
+          </div>
 
-        <div class="carousel-inner">
+          <div class="carousel-inner">
 
-            <!-- Slide 1 -->
-            <div class="carousel-item active">
-                <div class="carousel-bg"
-                    style="background: linear-gradient(135deg, #34495Ecc 0%, #34495Ecc 100%), 
-                    url('assets/images/images/clg_croped.png') center center / cover no-repeat;">
-                    <div class="carousel-overlay"></div>
-                </div>
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                  <div class="carousel-bg"
+                      style="background: linear-gradient(135deg, #34495Ecc 0%, #34495Ecc 100%), 
+                      url('assets/images/images/clg_croped.png') center center / cover no-repeat;">
+                      <div class="carousel-overlay"></div>
+                  </div>
 
-                <div class="carousel-caption">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8 text-center">
-                                <h1 class="display-4 fw-bold mb-4 animate-fade-in fs-1">
-                                    International Conference on Thermal Sciences and Sustainable Energy <br>(ICTSE-2026)
-                                </h1>
-                                <h3>January 23-24, 2026</h3>
-                                <p class="lead mb-4">Organized By</p>
-                                <h4>Department of Mechanical Engineering, <br>National Institute of Technology Warangal</h4>
+                  <div class="carousel-caption">
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8 text-center">
+                                  <h1 class="display-4 fw-bold mb-4 animate-fade-in fs-1">
+                                      International Conference on Thermal Sciences and Sustainable Energy <br>(ICTSE-2026)
+                                  </h1>
+                                  <h3>January 23-24, 2026</h3>
+                                  <p class="lead mb-4">Organized By</p>
+                                  <h4>Department of Mechanical Engineering, <br>National Institute of Technology Warangal</h4>
 
-                                <div class="d-flex justify-content-center gap-3 flex-wrap">
-                                    <a href="assets/images/all pdfs/International Conference on Thermal Sciences and Sustainable Energy (ICTSE-2026).pdf"
-                                        class="btn btn-outline-light btn-lg" target="_blank">Download Brochure</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                  <div class="d-flex justify-content-center gap-3 flex-wrap">
+                                      <a href="assets/images/all pdfs/International Conference on Thermal Sciences and Sustainable Energy (ICTSE-2026).pdf"
+                                          class="btn btn-outline-light btn-lg" target="_blank">Download Brochure</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
-            <div class="carousel-item">
-                <div class="carousel-bg"
-                    style="background: linear-gradient(135deg, #1B2631cc 0%, #1B2631cc 100%);">
-                    <div class="carousel-overlay"></div>
-                </div>
+              <div class="carousel-item">
+                  <div class="carousel-bg"
+                      style="background: linear-gradient(135deg, #1B2631cc 0%, #1B2631cc 100%);">
+                      <div class="carousel-overlay"></div>
+                  </div>
 
-             <div class="carousel-caption">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
+              <div class="carousel-caption">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-10">
 
-                <h1 class="display-5 fw-bold mb-4 animate-fade-in fs-1 text-light">
-                    Our Sponsors
-                </h1>
+                  <h1 class="display-5 fw-bold mb-4 animate-fade-in fs-1 text-light">
+                      Our Sponsors
+                  </h1>
 
-                <div class="row justify-content-center">
+                  <div class="row justify-content-center">
 
-                    <!-- ANSR -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 text-center mb-4">
-                        <img src="assets/images/sp1.jpeg"
-                             alt="ANSR Logo"
-                             class="img-fluid rounded shadow mb-3"
-                             style="width:100%; max-height:300px; object-fit:contain;">
-                        <h3 class="fw-bold text-light">ICE Asia Pvt. Ltd.</h3>
-                    </div>
+                      <!-- ANSR -->
+                      <div class="col-lg-6 col-md-6 col-sm-12 text-center mb-4">
+                          <img src="assets/images/sp1.jpeg"
+                              alt="ANSR Logo"
+                              class="img-fluid rounded shadow mb-3"
+                              style="width:100%; max-height:300px; object-fit:contain;">
+                          <h3 class="fw-bold text-light">ICE Asia Pvt. Ltd.</h3>
+                      </div>
 
-                    <!-- ICE -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 text-center mb-4">
-                        <img src="assets/images/sp2.jpeg"
-                             alt="ICE Logo"
-                             class="img-fluid rounded shadow mb-3"
-                             style="width:100%; max-height:300px; object-fit:contain;">
-                        <h3 class="fw-bold text-light">ANRF</h3>
-                    </div>
+                      <!-- ICE -->
+                      <div class="col-lg-6 col-md-6 col-sm-12 text-center mb-4">
+                          <img src="assets/images/sp2.jpeg"
+                              alt="ICE Logo"
+                              class="img-fluid rounded shadow mb-3"
+                              style="width:100%; max-height:300px; object-fit:contain;">
+                          <h3 class="fw-bold text-light">ANRF</h3>
+                      </div>
 
-                </div>
+                  </div>
 
-            </div>
-        </div>
-    </div>
-</div>
+              </div>
+          </div>
+      </div>
+  </div>
 
-            </div>
+              </div>
 
-                <div class="carousel-item">
-                    <div class="carousel-bg" style="background: linear-gradient(135deg, #34495Ecc 0%, #34495Ecc 100%), url('assets/images/images/thermal_croped.jpg') center center / cover no-repeat;">
-                        <div class="carousel-overlay"></div>
-                    </div>
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8 text-center">
-<h1 class="display-4 fw-bold mb-4 animate-fade-in fs-1">International Conference on Thermal 
-Sciences and Sustainable Energy  <br>
-(ICTSE-2026)</h1>
-                                    <h1 class="display-4 fw-bold mb-4  fs-1">Thermal Sciences</h1>
-                                    <p class="lead mb-4">This track focuses on advanced concepts and applications in thermal engineering. It explores novel approaches to heat exchange, energy conversion, and thermal management in various systems.</p>
-                                    <div class="d-flex justify-content-center gap-3 flex-wrap">
-                                        <a href="assets\images\all pdfs\International Conference on Thermal Sciences and Sustainable Energy (ICTSE-2026).pdf" class="btn btn-outline-light btn-lg" target="_blank">Download Brochure</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                  <div class="carousel-item">
+                      <div class="carousel-bg" style="background: linear-gradient(135deg, #34495Ecc 0%, #34495Ecc 100%), url('assets/images/images/thermal_croped.jpg') center center / cover no-repeat;">
+                          <div class="carousel-overlay"></div>
+                      </div>
+                      <div class="carousel-caption">
+                          <div class="container">
+                              <div class="row justify-content-center">
+                                  <div class="col-lg-8 text-center">
+  <h1 class="display-4 fw-bold mb-4 animate-fade-in fs-1">International Conference on Thermal 
+  Sciences and Sustainable Energy  <br>
+  (ICTSE-2026)</h1>
+                                      <h1 class="display-4 fw-bold mb-4  fs-1">Thermal Sciences</h1>
+                                      <p class="lead mb-4">This track focuses on advanced concepts and applications in thermal engineering. It explores novel approaches to heat exchange, energy conversion, and thermal management in various systems.</p>
+                                      <div class="d-flex justify-content-center gap-3 flex-wrap">
+                                          <a href="assets\images\all pdfs\International Conference on Thermal Sciences and Sustainable Energy (ICTSE-2026).pdf" class="btn btn-outline-light btn-lg" target="_blank">Download Brochure</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
 
-                <div class="carousel-item">
-                    <div class="carousel-bg" style="background: linear-gradient(135deg, #34495Ecc 0%, #34495Ecc 100%), url('assets/images/images/fluid_croped.png') center center / cover no-repeat;">
-                        <div class="carousel-overlay"></div>
-                    </div>
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8 text-center">
-                                    <h1 class="display-4 fw-bold mb-4 animate-fade-in fs-1">International Conference on Thermal 
-Sciences and Sustainable Energy  <br>
-(ICTSE-2026)</h1>
-                                    <h1 class="display-4 fw-bold mb-4 fs-1">Fluid Dynamics and Systems</h1>
-                                    <p class="lead mb-4">This track explores fundamental principles and advanced applications of fluid behavior. It covers various aspects of fluid motion and its engineering implications in diverse systems.</p>
-                                    <div class="d-flex justify-content-center gap-3 flex-wrap">
-                                        <a href="assets\images\all pdfs\International Conference on Thermal Sciences and Sustainable Energy (ICTSE-2026).pdf" class="btn btn-outline-light btn-lg" target="_blank">Download Brochure</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                  <div class="carousel-item">
+                      <div class="carousel-bg" style="background: linear-gradient(135deg, #34495Ecc 0%, #34495Ecc 100%), url('assets/images/images/fluid_croped.png') center center / cover no-repeat;">
+                          <div class="carousel-overlay"></div>
+                      </div>
+                      <div class="carousel-caption">
+                          <div class="container">
+                              <div class="row justify-content-center">
+                                  <div class="col-lg-8 text-center">
+                                      <h1 class="display-4 fw-bold mb-4 animate-fade-in fs-1">International Conference on Thermal 
+  Sciences and Sustainable Energy  <br>
+  (ICTSE-2026)</h1>
+                                      <h1 class="display-4 fw-bold mb-4 fs-1">Fluid Dynamics and Systems</h1>
+                                      <p class="lead mb-4">This track explores fundamental principles and advanced applications of fluid behavior. It covers various aspects of fluid motion and its engineering implications in diverse systems.</p>
+                                      <div class="d-flex justify-content-center gap-3 flex-wrap">
+                                          <a href="assets\images\all pdfs\International Conference on Thermal Sciences and Sustainable Energy (ICTSE-2026).pdf" class="btn btn-outline-light btn-lg" target="_blank">Download Brochure</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
 
-                <div class="carousel-item">
-                    <div class="carousel-bg" style="background: linear-gradient(135deg, #34495Ecc 0%, #34495Ecc 100%), url('assets/images/new/final eng.png') center center / cover no-repeat;">
-                        <div class="carousel-overlay"></div>
-                    </div>
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8 text-center">
-                                    <h1 class="display-4 fw-bold mb-4 animate-fade-in fs-1">International Conference on Thermal 
-Sciences and Sustainable Energy  <br>
-(ICTSE-2026)</h1>
-                                    <h1 class="display-4 fw-bold mb-4 fs-1">Sustainable Energy Systems</h1>
-                                    <p class="lead mb-4">This track focuses on innovative technologies and processes for clean energy generation and utilization. It addresses global energy challenges through advancements in renewable and sustainable solutions.</p>
-                                    <div class="d-flex justify-content-center gap-3 flex-wrap">
-                                        <a href="assets\images\all pdfs\International Conference on Thermal Sciences and Sustainable Energy (ICTSE-2026).pdf" class="btn btn-outline-light btn-lg" target="_blank">Download Brochure</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                  <div class="carousel-item">
+                      <div class="carousel-bg" style="background: linear-gradient(135deg, #34495Ecc 0%, #34495Ecc 100%), url('assets/images/new/final eng.png') center center / cover no-repeat;">
+                          <div class="carousel-overlay"></div>
+                      </div>
+                      <div class="carousel-caption">
+                          <div class="container">
+                              <div class="row justify-content-center">
+                                  <div class="col-lg-8 text-center">
+                                      <h1 class="display-4 fw-bold mb-4 animate-fade-in fs-1">International Conference on Thermal 
+  Sciences and Sustainable Energy  <br>
+  (ICTSE-2026)</h1>
+                                      <h1 class="display-4 fw-bold mb-4 fs-1">Sustainable Energy Systems</h1>
+                                      <p class="lead mb-4">This track focuses on innovative technologies and processes for clean energy generation and utilization. It addresses global energy challenges through advancements in renewable and sustainable solutions.</p>
+                                      <div class="d-flex justify-content-center gap-3 flex-wrap">
+                                          <a href="assets\images\all pdfs\International Conference on Thermal Sciences and Sustainable Energy (ICTSE-2026).pdf" class="btn btn-outline-light btn-lg" target="_blank">Download Brochure</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
 
-                
-                <div class="carousel-item">
-                    <div class="carousel-bg" style="background: linear-gradient(135deg, #2C3E50  0%, #2C3E50  100%);">
-                        <div class="carousel-overlay"></div>
-                    </div>
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8 text-center">
-                                    <h1 class="display-4 fw-bold mb-4 animate-fade-in fs-1">International Conference on Thermal 
-Sciences and Sustainable Energy  <br>
-(ICTSE-2026)</h1>
-                                    <h1 class="display-4 fw-bold mb-4 fs-1">Interdisciplinary Approaches</h1>
-                                    <p class="lead mb-4">This track examines innovative research at the convergence of thermal, fluid, and advanced technological domains. It features studies on AI/ML applications, novel measurement techniques, sensor development, and thermal aspects in manufacturing.</p>
-                                    <div class="d-flex justify-content-center gap-3 flex-wrap">
-                                        <a href="assets\images\all pdfs\International Conference on Thermal Sciences and Sustainable Energy (ICTSE-2026).pdf" class="btn btn-outline-light btn-lg" target="_blank">Download Brochure</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-            </div>
-            
-            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-        </div>
-    </section>
+                  
+                  <div class="carousel-item">
+                      <div class="carousel-bg" style="background: linear-gradient(135deg, #2C3E50  0%, #2C3E50  100%);">
+                          <div class="carousel-overlay"></div>
+                      </div>
+                      <div class="carousel-caption">
+                          <div class="container">
+                              <div class="row justify-content-center">
+                                  <div class="col-lg-8 text-center">
+                                      <h1 class="display-4 fw-bold mb-4 animate-fade-in fs-1">International Conference on Thermal 
+  Sciences and Sustainable Energy  <br>
+  (ICTSE-2026)</h1>
+                                      <h1 class="display-4 fw-bold mb-4 fs-1">Interdisciplinary Approaches</h1>
+                                      <p class="lead mb-4">This track examines innovative research at the convergence of thermal, fluid, and advanced technological domains. It features studies on AI/ML applications, novel measurement techniques, sensor development, and thermal aspects in manufacturing.</p>
+                                      <div class="d-flex justify-content-center gap-3 flex-wrap">
+                                          <a href="assets\images\all pdfs\International Conference on Thermal Sciences and Sustainable Energy (ICTSE-2026).pdf" class="btn btn-outline-light btn-lg" target="_blank">Download Brochure</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          
+              </div>
+              
+              <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+              </button>
+          </div>
+  </section>
 
-    <!-- About Section -->
+<!-- About Section -->
     <section id="about" class="py-5 bg-light">
         <div class="container">
             <div class="row custom-justify-text">
@@ -308,7 +331,7 @@ Sciences and Sustainable Energy  <br>
         </div>
     </section>
 
-    <!-- Call for Papers Section -->
+<!-- Call for Papers Section -->
     <section id="call-for-papers" class="py-5">
         <div class="container">
             <div class="row">
@@ -343,10 +366,11 @@ presented in person. An option for online presentation is available only for for
         </div>
     </section>
 
-<div class="mt-4 mb-2 fs-4 text-blue text-center lead">
-  <p>*Papers are called for, but not limited to the following topics*</p>
-</div>
-    <!-- Tracks Section -->
+    <div class="mt-4 mb-2 fs-4 text-blue text-center lead">
+      <p>*Papers are called for, but not limited to the following topics*</p>
+    </div>
+
+<!-- Tracks Section -->
     <section id="tracks" class="py-5 bg-light">
     <div class="container">
         <div class="row">
@@ -436,238 +460,235 @@ presented in person. An option for online presentation is available only for for
         </div>
     </div>
     </section>
+
 <!-- Keynote Speakers -->
-<section id="keynote-speakers" class="py-5 lead">
-    <div class="container">
+  <section id="keynote-speakers" class="py-5 lead">
+      <div class="container">
 
-        <!-- Section Title -->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-header text-center mb-5">
-                    <h2 class="section-title">Keynote Speakers</h2>
-                    <div class="title-underline"></div>
-                </div>
-            </div>
-        </div>
+          <!-- Section Title -->
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="section-header text-center mb-5">
+                      <h2 class="section-title">Keynote Speakers</h2>
+                      <div class="title-underline"></div>
+                  </div>
+              </div>
+          </div>
 
-        <div class="mt-4 mb-2 fs-4 text-center lead">
-            <p>We are honoured to have the following eminent personalities as keynote speakers.</p>
-        </div>
+          <div class="mt-4 mb-2 fs-4 text-center lead">
+              <p>We are honoured to have the following eminent personalities as keynote speakers.</p>
+          </div>
 
-        <!-- All Speakers (4 per row automatically) -->
-        <div class="row g-4">
+          <!-- All Speakers (4 per row automatically) -->
+          <div class="row g-4">
 
-            <!-- Speaker 1 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="card-body p-3">
-                        <img src="assets/images/prof Lee NUSP.jpg" class="img-fluid mx-auto mb-3"
-                             style="object-fit: cover; width: 100%; height: 300px;">
-                        <h6 class="text-primary">Prof. Poh Seng Lee</h6>
-                        <p class="text-muted small">Mechanical Engineering, College of Design and Engineering, National University of Singapore (NUS)
+              <!-- Speaker 1 -->
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card h-100 border-0 shadow-sm text-center">
+                      <div class="card-body p-3">
+                          <img src="assets/images/prof Lee NUSP.jpg" class="img-fluid mx-auto mb-3"
+                              style="object-fit: cover; width: 100%; height: 300px;">
+                          <h6 class="text-primary">Prof. Poh Seng Lee</h6>
+                          <p class="text-muted small">Mechanical Engineering, College of Design and Engineering, National University of Singapore (NUS)
 
-</p>
-                    </div>
-                </div>
-            </div>
+  </p>
+                      </div>
+                  </div>
+              </div>
 
-            <!-- Speaker 2
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="card-body p-3">
-                        <img src="assets/images/prof sarit kumar IITM.png" class="img-fluid mx-auto mb-3"
-                             style="object-fit: cover; width: 100%; height: 300px;">
-                        <h6 class="text-primary">Prof. Sarit Kumar Das</h6>
-                        <p class="text-muted small">Department of Mechanical Engineering, IIT Madras
+              <!-- Speaker 2
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card h-100 border-0 shadow-sm text-center">
+                      <div class="card-body p-3">
+                          <img src="assets/images/prof sarit kumar IITM.png" class="img-fluid mx-auto mb-3"
+                              style="object-fit: cover; width: 100%; height: 300px;">
+                          <h6 class="text-primary">Prof. Sarit Kumar Das</h6>
+                          <p class="text-muted small">Department of Mechanical Engineering, IIT Madras
 
-</p>
-                    </div>
-                </div>
-            </div> -->
+  </p>
+                      </div>
+                  </div>
+              </div> -->
 
-            <!-- Speaker 3 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="card-body p-3">
-                        <img src="assets/images/new/speaker6.jpg" class="img-fluid mx-auto mb-3"
-                             style="object-fit: cover; width: 100%; height: 300px;">
-                        <h6 class="text-primary">Dr. S. V. Ramana Murty</h6>
-                        <p class="text-muted small">Director, Gas Turbine Research Establishment (GTRE)</p>
-                    </div>
-                </div>
-            </div>
+              <!-- Speaker 3 -->
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card h-100 border-0 shadow-sm text-center">
+                      <div class="card-body p-3">
+                          <img src="assets/images/new/speaker6.jpg" class="img-fluid mx-auto mb-3"
+                              style="object-fit: cover; width: 100%; height: 300px;">
+                          <h6 class="text-primary">Dr. S. V. Ramana Murty</h6>
+                          <p class="text-muted small">Director, Gas Turbine Research Establishment (GTRE)</p>
+                      </div>
+                  </div>
+              </div>
 
-            <!-- Speaker 4 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="card-body p-3">
-                        <img src="assets/images/new/speaker4.jpg" class="img-fluid mx-auto mb-3"
-                             style="object-fit: cover; width: 100%; height: 300px;">
-                        <h6 class="text-primary">Prof. Arun Kumar</h6>
-                        <p class="text-muted small">Department of Hydro and Renewable Energy, IIT Roorkee
+              <!-- Speaker 4 -->
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card h-100 border-0 shadow-sm text-center">
+                      <div class="card-body p-3">
+                          <img src="assets/images/new/speaker4.jpg" class="img-fluid mx-auto mb-3"
+                              style="object-fit: cover; width: 100%; height: 300px;">
+                          <h6 class="text-primary">Prof. Arun Kumar</h6>
+                          <p class="text-muted small">Department of Hydro and Renewable Energy, IIT Roorkee
 
-</p>
-                    </div>
-                </div>
-            </div>
+  </p>
+                      </div>
+                  </div>
+              </div>
 
-            <!-- Speaker 5 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="card-body p-3">
-                        <img src="assets/images/new/speaker3.jpg" class="img-fluid mx-auto mb-3"
-                             style="object-fit: cover; width: 100%; height: 300px;">
-                        <h6 class="text-primary">Prof. Prakash Chandra Ghosh</h6>
-                        <p class="text-muted small">Department of Energy Science and Engineering, IIT Bombay
+              <!-- Speaker 5 -->
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card h-100 border-0 shadow-sm text-center">
+                      <div class="card-body p-3">
+                          <img src="assets/images/new/speaker3.jpg" class="img-fluid mx-auto mb-3"
+                              style="object-fit: cover; width: 100%; height: 300px;">
+                          <h6 class="text-primary">Prof. Prakash Chandra Ghosh</h6>
+                          <p class="text-muted small">Department of Energy Science and Engineering, IIT Bombay
 
-</p>
-                    </div>
-                </div>
-            </div>
+  </p>
+                      </div>
+                  </div>
+              </div>
 
-            <!-- Speaker 6 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="card-body p-3">
-                        <img src="assets/images/new/speaker5.jpg" class="img-fluid mx-auto mb-3"
-                             style="object-fit: cover; width: 100%; height: 300px;">
-                        <h6 class="text-primary">Prof. P. Sankar Ganesh</h6>
-                        <p class="text-muted small">Department of Biological Sciences, BITS Pilani Hyderabad Campus</p>
-                    </div>
-                </div>
-            </div>
+              <!-- Speaker 6 -->
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card h-100 border-0 shadow-sm text-center">
+                      <div class="card-body p-3">
+                          <img src="assets/images/new/speaker5.jpg" class="img-fluid mx-auto mb-3"
+                              style="object-fit: cover; width: 100%; height: 300px;">
+                          <h6 class="text-primary">Prof. P. Sankar Ganesh</h6>
+                          <p class="text-muted small">Department of Biological Sciences, BITS Pilani Hyderabad Campus</p>
+                      </div>
+                  </div>
+              </div>
 
-            <!-- Speaker 7 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="card-body p-3">
-                        <img src="assets\images\new1.jpeg" class="img-fluid mx-auto mb-3"
-                             style="object-fit: cover; width: 100%; height: 300px;">
-                        <h6 class="text-primary">Prof. Tanmay Basak
-</h6>
-                        <p class="text-muted small">Department of Chemical Engineering, IIT Madras</p>
-                    </div>
-                </div>
-            </div>
+              <!-- Speaker 7 -->
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card h-100 border-0 shadow-sm text-center">
+                      <div class="card-body p-3">
+                          <img src="assets\images\new1.jpeg" class="img-fluid mx-auto mb-3"
+                              style="object-fit: cover; width: 100%; height: 300px;">
+                          <h6 class="text-primary">Prof. Tanmay Basak
+  </h6>
+                          <p class="text-muted small">Department of Chemical Engineering, IIT Madras</p>
+                      </div>
+                  </div>
+              </div>
 
-        </div>
+          </div>
 
-    </div>
-</section>
-
-
-
-
+      </div>
+  </section>
 
  <!-- Important Dates Section -->
-<section id="important-dates" class="py-5 bg-light text-white">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-header text-center mb-5">
-                    <h2 class="section-title">Important Dates</h2>
-                    <div class="title-underline"></div>
-                    <!-- Countdown Timer -->
-                    <div class="countdown-timer mt-4">
-                        <h4 class="text-white mb-3 lead fs-2">ICTSE Conference In</h4>
-                        <div class="countdown-display d-flex justify-content-center gap-4 flex-wrap">
-                            <div class="countdown-unit">
-                                <div class="countdown-number" id="days">00</div>
-                                <div class="countdown-label">Days</div>
-                            </div>
-                            <div class="countdown-unit">
-                                <div class="countdown-number" id="hours">00</div>
-                                <div class="countdown-label">Hours</div>
-                            </div>
-                            <div class="countdown-unit">
-                                <div class="countdown-number" id="minutes">00</div>
-                                <div class="countdown-label">Minutes</div>
-                            </div>
-                            <div class="countdown-unit">
-                                <div class="countdown-number" id="seconds">00</div>
-                                <div class="countdown-label">Seconds</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <div class="timeline">
-                    <!-- Abstract Deadline -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h5 class="text-primary">Abstract Submission Deadline</h5>
-                            <p class="text-muted mb-1">
-                                <strong><s style="color:red;">August 1, 2025</s> → August 15, 2025</strong>
-                            </p>
-                            <p class="text-muted">All abstracts must be submitted through the official online portal.</p>
-                        </div>
-                    </div>
+  <section id="important-dates" class="py-5 bg-light text-white">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="section-header text-center mb-5">
+                      <h2 class="section-title">Important Dates</h2>
+                      <div class="title-underline"></div>
+                      <!-- Countdown Timer -->
+                      <div class="countdown-timer mt-4">
+                          <h4 class="text-white mb-3 lead fs-2">ICTSE Conference In</h4>
+                          <div class="countdown-display d-flex justify-content-center gap-4 flex-wrap">
+                              <div class="countdown-unit">
+                                  <div class="countdown-number" id="days">00</div>
+                                  <div class="countdown-label">Days</div>
+                              </div>
+                              <div class="countdown-unit">
+                                  <div class="countdown-number" id="hours">00</div>
+                                  <div class="countdown-label">Hours</div>
+                              </div>
+                              <div class="countdown-unit">
+                                  <div class="countdown-number" id="minutes">00</div>
+                                  <div class="countdown-label">Minutes</div>
+                              </div>
+                              <div class="countdown-unit">
+                                  <div class="countdown-number" id="seconds">00</div>
+                                  <div class="countdown-label">Seconds</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="row">
+              <div class="col-lg-8 mx-auto">
+                  <div class="timeline">
+                      <!-- Abstract Deadline -->
+                      <div class="timeline-item">
+                          <div class="timeline-marker"></div>
+                          <div class="timeline-content">
+                              <h5 class="text-primary">Abstract Submission Deadline</h5>
+                              <p class="text-muted mb-1">
+                                  <strong><s style="color:red;">August 1, 2025</s> → August 15, 2025</strong>
+                              </p>
+                              <p class="text-muted">All abstracts must be submitted through the official online portal.</p>
+                          </div>
+                      </div>
 
-                    <!-- Abstract Acceptance -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h5 class="text-primary">Notification of abstract acceptance</h5>
-                            <p class="text-muted mb-1"><strong>15/08/2025</strong></p>
-                            <p class="text-muted">Authors will be notified about abstract acceptance</p>
-                        </div>
-                    </div>
+                      <!-- Abstract Acceptance -->
+                      <div class="timeline-item">
+                          <div class="timeline-marker"></div>
+                          <div class="timeline-content">
+                              <h5 class="text-primary">Notification of abstract acceptance</h5>
+                              <p class="text-muted mb-1"><strong>15/08/2025</strong></p>
+                              <p class="text-muted">Authors will be notified about abstract acceptance</p>
+                          </div>
+                      </div>
 
-                    <!-- Full Paper Deadline -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h5 class="text-primary">Full length paper submission deadline</h5>
-                            <p class="text-muted mb-1">
-                                <strong><s style="color:red;">15/10/2025</s> → 25/10/2025</strong>
-                            </p>
-                            <p class="text-muted">All papers must be submitted through the official online portal</p>
-                        </div>
-                    </div>
+                      <!-- Full Paper Deadline -->
+                      <div class="timeline-item">
+                          <div class="timeline-marker"></div>
+                          <div class="timeline-content">
+                              <h5 class="text-primary">Full length paper submission deadline</h5>
+                              <p class="text-muted mb-1">
+                                  <strong><s style="color:red;">15/10/2025</s> → 25/10/2025</strong>
+                              </p>
+                              <p class="text-muted">All papers must be submitted through the official online portal</p>
+                          </div>
+                      </div>
 
-                    <!-- Final Acceptance -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h5 class="text-primary">Notification of final acceptance</h5>
-                            <p class="text-muted mb-1"><strong>15/11/2025</strong></p>
-                            <p class="text-muted">Authors will be notified about final paper acceptance</p>
-                        </div>
-                    </div>
+                      <!-- Final Acceptance -->
+                      <div class="timeline-item">
+                          <div class="timeline-marker"></div>
+                          <div class="timeline-content">
+                              <h5 class="text-primary">Notification of final acceptance</h5>
+                              <p class="text-muted mb-1"><strong>15/11/2025</strong></p>
+                              <p class="text-muted">Authors will be notified about final paper acceptance</p>
+                          </div>
+                      </div>
 
-                    <!-- Registration Early -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h5 class="text-primary">Registration (Early bird) deadline</h5>
-                            <p class="text-muted mb-1"><strong>30/11/2025</strong></p>
-                            <p class="text-muted">Register before this date for discounted rates</p>
-                        </div>
-                    </div>
+                      <!-- Registration Early -->
+                      <div class="timeline-item">
+                          <div class="timeline-marker"></div>
+                          <div class="timeline-content">
+                              <h5 class="text-primary">Registration (Early bird) deadline</h5>
+                              <p class="text-muted mb-1"><strong>30/11/2025</strong></p>
+                              <p class="text-muted">Register before this date for discounted rates</p>
+                          </div>
+                      </div>
 
-                    <!-- Registration Regular -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h5 class="text-primary">Registration (Regular) deadline</h5>
-                            <p class="text-muted mb-1"><strong>31/12/2025</strong></p>
-                            <p class="text-muted">Register before this date for regular rates</p>
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+                      <!-- Registration Regular -->
+                      <div class="timeline-item">
+                          <div class="timeline-marker"></div>
+                          <div class="timeline-content">
+                              <h5 class="text-primary">Registration (Regular) deadline</h5>
+                              <p class="text-muted mb-1"><strong>31/12/2025</strong></p>
+                              <p class="text-muted">Register before this date for regular rates</p>
+                          </div>
+                      </div>
+                    
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
 
-    <!-- Publications Section -->
+<!-- Publications Section -->
     <section id="publications" class="py-5">
         <div class="container">
             <div class="row">
@@ -804,7 +825,6 @@ presented in person. An option for online presentation is available only for for
         </div>
     </section>
 
-
     <!-- Registration Section
     <section id="registration" class="py-5">
         <div class="container">
@@ -863,183 +883,271 @@ presented in person. An option for online presentation is available only for for
     </section> -->
   
 <!-- Registration Section -->
-<section id="registration" class="py-5">
-  <div class="container">
+  <section id="registration" class="py-5">
+    <div class="container">
 
-    <!-- Section Title -->
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="section-header text-center mb-5">
-          <h2 class="section-title" style="font-size: 3rem;">Registration</h2>
-          <div class="title-underline"></div>
-          <p class="lead mt-3 text-muted">
-            At least one author must register for each accepted paper for it to be included in the proceedings.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Two Column Layout -->
-    <div class="row g-4">
-
-      <!-- Left Column (Instructions + Documents + Bank Details) -->
-      <div class="col-lg-6">
-        <div class="card border-0 shadow-sm h-100">
-          <div class="card-body p-4">
-
-            <!-- INSTRUCTIONS -->
-            <h5 class="lead fw-bold mb-3 text-primary">Instructions for Registration</h5>
-            <ol class="lead">
-              <li>Registration is compulsory for all the papers. Without at least one registration, the paper will not be considered for further processing.</li>
-              <li>All the delegates attending the conference must register.</li>
-              <li>More than one author of the same paper can register, if they want to attend the conference.</li>
-              <li>
-                Registering for multiple papers by the same presenting author:
-                <ul class="mt-2">
-                  <li>The 1<sup>st</sup> paper is charged at the normal fee. Registration kit & food coupons will be provided.</li>
-                  <li>From the 2<sup>nd</sup> paper onwards, Rs. 1000/- discount per paper. No kit or food coupons will be provided.</li>
-                </ul>
-              </li>
-            </ol>
-
-            <!-- DOCUMENTS -->
-            <h5 class="lead fw-bold mt-4 mb-2 text-primary">Documents Required</h5>
-            <ul class="lead">
-              <li>Payment details (Transaction ID & date)</li>
-              <li>Payment proof (screenshot/document of transaction)</li>
-              <li>Student ID card (for student category only)</li>
-            </ul>
-
-            <!-- BANK DETAILS (MOVED HERE) -->
-            <h5 class="lead fw-bold mt-4 mb-2 text-primary">Bank Details</h5>
-            <ul class="lead list-unstyled mb-3">
-              <li><strong>Bank Name:</strong> State Bank of India</li>
-              <li><strong>Branch:</strong> N I T</li>
-              <li><strong>Account Name:</strong> Director Research Account</li>
-              <li><strong>Account Number:</strong> 62266262236</li>
-              <li><strong>IFSC Code:</strong> SBIN0020149</li>
-            </ul>
-
-            <p class="mb-0 mt-3 lead fst-italic text-muted">
-              <strong>Note:</strong> Registration fees are inclusive of 18% GST.
-
+      <!-- Section Title -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-header text-center mb-5">
+            <h2 class="section-title" style="font-size: 3rem;">Registration</h2>
+            <div class="title-underline"></div>
+            <p class="lead mt-3 text-muted">
+              At least one author must register for each accepted paper for it to be included in the proceedings.
             </p>
-
           </div>
         </div>
       </div>
 
-      <!-- Right Column (Tables + Register Button) -->
-      <div class="col-lg-6">
-        <div class="card border-0 shadow-sm h-100">
-          <div class="card-body p-4 d-flex flex-column">
+      <!-- Two Column Layout -->
+      <div class="row g-4">
 
-            <!-- MAIN FEE TABLE -->
-            <h5 class="lead fw-bold mb-3 text-primary">Registration Fee </h5>
+        <!-- Left Column (Instructions + Documents + Bank Details) -->
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4">
 
-            <div class="table-responsive mb-4">
-              <table class="table table-bordered text-center align-middle">
-                <thead class="table-primary">
-                  <tr class="lead">
-                    <th>Category</th>
-                    <th>Early Bird<br>Indian (INR)<br><span class="text-danger small">Until 30/11/2025</span></th>
-                    <th>Early Bird<br>Foreign (USD)<br><span class="text-danger small">Until 30/11/2025</span></th>
-                    <th>Regular<br>Indian (INR)<br><span class="text-muted small">After 30/11/2025</span></th>
-                    <th>Regular<br>Foreign (USD)<br><span class="text-muted small">After 30/11/2025</span></th>
-                  </tr>
-                </thead>
-                <tbody class="lead">
-                  <tr>
-                    <td>Students</td>
-                    <td>3,000</td>
-                    <td>50</td>
-                    <td>3,500</td>
-                    <td>75</td>
-                  </tr>
-                  <tr>
-                    <td>Academia / Industry</td>
-                    <td>4,500</td>
-                    <td>100</td>
-                    <td>5,500</td>
-                    <td>125</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+              <!-- INSTRUCTIONS -->
+              <h5 class="lead fw-bold mb-3 text-primary">Instructions for Registration</h5>
+              <ol class="lead">
+                <li>Registration is compulsory for all the papers. Without at least one registration, the paper will not be considered for further processing.</li>
+                <li>All the delegates attending the conference must register.</li>
+                <li>More than one author of the same paper can register, if they want to attend the conference.</li>
+                <li>
+                  Registering for multiple papers by the same presenting author:
+                  <ul class="mt-2">
+                    <li>The 1<sup>st</sup> paper is charged at the normal fee. Registration kit & food coupons will be provided.</li>
+                    <li>From the 2<sup>nd</sup> paper onwards, Rs. 1000/- discount per paper. No kit or food coupons will be provided.</li>
+                  </ul>
+                </li>
+              </ol>
 
-            <!-- MULTIPLE PAPERS FEE TABLE -->
-            <h5 class="lead fw-bold mb-3 text-primary">Multiple papers registered by the same presenting author </h5>
+              <!-- DOCUMENTS -->
+              <h5 class="lead fw-bold mt-4 mb-2 text-primary">Documents Required</h5>
+              <ul class="lead">
+                <li>Payment details (Transaction ID & date)</li>
+                <li>Payment proof (screenshot/document of transaction)</li>
+                <li>Student ID card (for student category only)</li>
+              </ul>
 
-            <div class="table-responsive mb-4">
-              <table class="table table-bordered text-center align-middle">
-                <thead class="table-primary">
-                  <tr class="lead">
-                    <th rowspan="2" class="align-middle">No. of Papers</th>
-                    <th colspan="2">Students (INR)</th>
-                    <th colspan="2">Academia / Industry (INR)</th>
-                  </tr>
-                  <tr class="lead small">
-                    <th>Early Bird<br><span class="text-danger">(Until 30/11/2025)</span></th>
-                    <th>Regular<br><span class="text-muted">(After 30/11/2025)</span></th>
-                    <th>Early Bird<br><span class="text-danger">(Until 30/11/2025)</span></th>
-                    <th>Regular<br><span class="text-muted">(After 30/11/2025)</span></th>
-                  </tr>
-                </thead>
-                <tbody class="lead">
-                  <tr>
-                    <td>1</td>
-                    <td>3,000</td>
-                    <td>3,500</td>
-                    <td>4,500</td>
-                    <td>5,500</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>5,000</td>
-                    <td>6,000</td>
-                    <td>8,000</td>
-                    <td>10,000</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>7,000</td>
-                    <td>8,500</td>
-                    <td>11,500</td>
-                    <td>14,500</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>9,000</td>
-                    <td>11,000</td>
-                    <td>15,000</td>
-                    <td>19,000</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+              <!-- BANK DETAILS (MOVED HERE) -->
+              <h5 class="lead fw-bold mt-4 mb-2 text-primary">Bank Details</h5>
+              <ul class="lead list-unstyled mb-3">
+                <li><strong>Bank Name:</strong> State Bank of India</li>
+                <li><strong>Branch:</strong> N I T</li>
+                <li><strong>Account Name:</strong> Director Research Account</li>
+                <li><strong>Account Number:</strong> 62266262236</li>
+                <li><strong>IFSC Code:</strong> SBIN0020149</li>
+              </ul>
 
-            <!-- Button -->
-            <div class="mt-auto text-center">
-              <a href="https://forms.gle/pgzNsig9BsdeKusf7"
-                 class="btn btn-primary btn-lg px-4"
-                 target="_blank" rel="noopener noreferrer">
-                Register Now
-              </a>
-              <p class="small text-muted mt-2 mb-0">
+              <p class="mb-0 mt-3 lead fst-italic text-muted">
+                <strong>Note:</strong> Registration fees are inclusive of 18% GST.
+
               </p>
-            </div>
 
+            </div>
           </div>
         </div>
+
+        <!-- Right Column (Tables + Register Button) -->
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4 d-flex flex-column">
+
+              <!-- MAIN FEE TABLE -->
+              <h5 class="lead fw-bold mb-3 text-primary">Registration Fee </h5>
+
+              <div class="table-responsive mb-4">
+                <table class="table table-bordered text-center align-middle">
+                  <thead class="table-primary">
+                    <tr class="lead">
+                      <th>Category</th>
+                      <th>Early Bird<br>Indian (INR)<br><span class="text-danger small">Until 30/11/2025</span></th>
+                      <th>Early Bird<br>Foreign (USD)<br><span class="text-danger small">Until 30/11/2025</span></th>
+                      <th>Regular<br>Indian (INR)<br><span class="text-muted small">After 30/11/2025</span></th>
+                      <th>Regular<br>Foreign (USD)<br><span class="text-muted small">After 30/11/2025</span></th>
+                    </tr>
+                  </thead>
+                  <tbody class="lead">
+                    <tr>
+                      <td>Students</td>
+                      <td>3,000</td>
+                      <td>50</td>
+                      <td>3,500</td>
+                      <td>75</td>
+                    </tr>
+                    <tr>
+                      <td>Academia / Industry</td>
+                      <td>4,500</td>
+                      <td>100</td>
+                      <td>5,500</td>
+                      <td>125</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- MULTIPLE PAPERS FEE TABLE -->
+              <h5 class="lead fw-bold mb-3 text-primary">Multiple papers registered by the same presenting author </h5>
+
+              <div class="table-responsive mb-4">
+                <table class="table table-bordered text-center align-middle">
+                  <thead class="table-primary">
+                    <tr class="lead">
+                      <th rowspan="2" class="align-middle">No. of Papers</th>
+                      <th colspan="2">Students (INR)</th>
+                      <th colspan="2">Academia / Industry (INR)</th>
+                    </tr>
+                    <tr class="lead small">
+                      <th>Early Bird<br><span class="text-danger">(Until 30/11/2025)</span></th>
+                      <th>Regular<br><span class="text-muted">(After 30/11/2025)</span></th>
+                      <th>Early Bird<br><span class="text-danger">(Until 30/11/2025)</span></th>
+                      <th>Regular<br><span class="text-muted">(After 30/11/2025)</span></th>
+                    </tr>
+                  </thead>
+                  <tbody class="lead">
+                    <tr>
+                      <td>1</td>
+                      <td>3,000</td>
+                      <td>3,500</td>
+                      <td>4,500</td>
+                      <td>5,500</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>5,000</td>
+                      <td>6,000</td>
+                      <td>8,000</td>
+                      <td>10,000</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>7,000</td>
+                      <td>8,500</td>
+                      <td>11,500</td>
+                      <td>14,500</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>9,000</td>
+                      <td>11,000</td>
+                      <td>15,000</td>
+                      <td>19,000</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- Button -->
+              <div class="mt-auto text-center">
+                <a href="https://forms.gle/pgzNsig9BsdeKusf7"
+                  class="btn btn-primary btn-lg px-4"
+                  target="_blank" rel="noopener noreferrer">
+                  Register Now
+                </a>
+                <p class="small text-muted mt-2 mb-0">
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </div>
+  </section>
 
-  </div>
-</section>
+<!-- Accommodation Section -->
+  <section id="accommodation" class="py-5">
+    <div class="container">
+
+      <!-- Section Title -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-header text-center mb-5">
+            <h2 class="section-title" style="font-size: 3rem;">Accommodation</h2>
+            <div class="title-underline"></div>
+            <p class="lead mt-3 text-muted">
+              Limited accommodations (nearly 100) can be arranged by organizers in the following facilities.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Two Column Layout -->
+      <div class="row g-4">
+
+        <!-- Left Column -->
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4">
+
+              <h5 class="lead fw-bold mb-3 text-primary">NITW Campus</h5>
+              <ul class="lead">
+                <li>Hostel for men – double sharing with attached bath, Rs. 500 - 700 per person per day</li>
+                <li>Guest house – double sharing, Rs. 1500 - 2000 per person per day</li>
+              </ul>
+
+              <h5 class="lead fw-bold mt-4 mb-2 text-primary">Bala Vikasa (1.5 KM from NITW)</h5>
+              <p class="lead">
+                (visit 
+                <a href="https://bvpdtc.org/pdtc_campus/" target="_blank">
+                  https://bvpdtc.org/pdtc_campus/
+                </a>
+                to have a look)
+              </p>
+              <ul class="lead">
+                <li>Double sharing – Rs. 700 to 800 per person per day</li>
+                <li>4 sharing with attached bath – Rs. 400 - 500 per person per day</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4">
+
+              <p class="lead">
+                Those who are willing to avail any of the above facilities, please register in the link provided below.
+                As the beds in these facilities are limited, the participants are requested to register for the same at the earliest.
+                Kindly note that the above accommodation is first come first serve basis. Also, please note that we cannot assure accommodation for all.
+              </p>
+
+              <!-- Registration Button -->
+              <a href="https://forms.gle/SfyEgJuis6E1f8xb7"
+                class="btn btn-primary btn-lg px-4 mb-4"
+                target="_blank" rel="noopener noreferrer">
+                Register for Accommodation
+              </a>
+
+              <p class="lead">
+                We will publish the confirmed accommodation details at the earliest, so that unconfirmed delegates can book other options on their own.
+                The details of nearby hotels are provided below in a file.
+              </p>
+
+              <!-- PDF Download Button -->
+              <a href="assets\images\NITW nearby Hotels List.pdf"
+                class="btn btn-outline-secondary btn-lg px-4"
+                target="_blank" rel="noopener noreferrer">
+                📄 Download Nearby Hotels List (PDF)
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
 
 
-    <!-- Submission Section -->
+
+<!-- Submission Section -->
     <section id="author-instructions" class="py-5 bg-light">
         <div class="container">
             <div class="row">
